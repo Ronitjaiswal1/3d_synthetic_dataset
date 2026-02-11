@@ -80,7 +80,7 @@ The site automatically deploys to GitHub Pages when you push to the `main` branc
 
 ## 🎓 Credits
 
-**Authors**: Ronit Jaiswal et al.  
+**Authors**: Ronit Jaiswal, Nishant Gupta, Harsh Verma, Radhika Sharma  
 **Institution**: Faculty of Technology, University of Delhi  
 **Supervisor**: Dr. Sangita Yadav
 
