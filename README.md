@@ -119,7 +119,7 @@ cd 3d_synthetic_dataset
 pip install -r requirements.txt**
 
 
-🚀 Usage
+## 🚀 Usage
 
 To generate the synthetic dataset, run:
 
@@ -128,7 +128,7 @@ python 3D_Dataset_Generator.py
 
 The generated volumetric samples and corresponding annotation masks will be saved inside the outputs/ directory.
 
-🧪 Experimental Use
+## 🧪 Experimental Use
 
 This dataset can be directly used for:
 
