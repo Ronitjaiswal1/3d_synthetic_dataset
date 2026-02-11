@@ -1,62 +1,62 @@
-# 🚀 3D Synthetic Dataset Generation Framework for Deep Learning
+# 3D Synthetic Dataset Generation Framework for Deep Learning
 
 **A scalable, automated framework for generating high-quality synthetic 3D volumetric datasets with pixel-perfect annotations for deep learning research.**
 
-> 📄 Research Paper | 💻 [Code](https://github.com/Ronitjaiswal1/3d_synthetic_dataset) | 📊 [Dataset](https://drive.google.com/drive/folders/1yrN9fln7x9DJzyIIU_AoEhxl85g41Jad?usp=drive_link) | ⭐ Star this repo if you find it useful!
+> Research Paper | [Code](https://github.com/Ronitjaiswal1/3d_synthetic_dataset) | [Dataset](https://drive.google.com/drive/folders/1yrN9fln7x9DJzyIIU_AoEhxl85g41Jad?usp=drive_link) | Star this repo if you find it useful!
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository presents a **fully automated 3D synthetic dataset generation pipeline** designed to create **large-scale volumetric datasets with precise voxel-level ground truth annotations**. The framework addresses critical challenges in 3D deep learning research:
 
 ### Challenges with Real-World 3D Data
-- ❌ Limited availability
-- ❌ High annotation cost
-- ❌ Data imbalance
-- ❌ Privacy concerns
-- ❌ Poor reproducibility
+- Limited availability
+- High annotation cost
+- Data imbalance
+- Privacy concerns
+- Poor reproducibility
 
 ### Our Solution
-✅ **Controlled, scalable, and reproducible data generation**, making it ideal for **training, benchmarking, and evaluating deep learning models** in tasks such as:
+**Controlled, scalable, and reproducible data generation**, making it ideal for **training, benchmarking, and evaluating deep learning models** in tasks such as:
 
-- 🔹 3D Segmentation  
-- 🔹 3D Classification  
-- 🔹 Object Detection  
-- 🔹 3D Reconstruction  
-- 🔹 Robustness & Generalization Studies  
+- 3D Segmentation  
+- 3D Classification  
+- Object Detection  
+- 3D Reconstruction  
+- Robustness & Generalization Studies  
 
 ---
 
-## 🎯 Purpose of the Dataset
+## Purpose of the Dataset
 
 Real-world 3D datasets are difficult and expensive to acquire, especially when **precise voxel-level annotations** are required. Manual annotation in 3D is highly time-consuming, error-prone, and costly.
 
 ### This framework provides:
-- ✨ **Automatic pixel-perfect annotations**
-- ✨ **Scalable dataset synthesis**
-- ✨ **High structural diversity**
-- ✨ **Realistic noise & distortion modeling**
-- ✨ **Controlled experimental reproducibility**
+- **Automatic pixel-perfect annotations**
+- **Scalable dataset synthesis**
+- **High structural diversity**
+- **Realistic noise & distortion modeling**
+- **Controlled experimental reproducibility**
 
 The dataset enables systematic benchmarking of deep learning models and accelerates research in volumetric AI.
 
 ---
 
-## ✨ Key Contributions
+## Key Contributions
 
-- 🔹 **Fully automated 3D synthetic data generation pipeline**
-- 🔹 **Parametric shape modeling for high geometric diversity**
-- 🔹 **Multi-stage realistic noise and artifact simulation**
-- 🔹 **Pixel-perfect voxel-level ground truth generation**
-- 🔹 **Scalable dataset synthesis for large-scale training**
-- 🔹 **Multi-task learning support (segmentation, classification, detection)**
-- 🔹 **Cross-model benchmarking and generalization evaluation platform**
-- 🔹 **Modular and extensible framework design**
+- **Fully automated 3D synthetic data generation pipeline**
+- **Parametric shape modeling for high geometric diversity**
+- **Multi-stage realistic noise and artifact simulation**
+- **Pixel-perfect voxel-level ground truth generation**
+- **Scalable dataset synthesis for large-scale training**
+- **Multi-task learning support (segmentation, classification, detection)**
+- **Cross-model benchmarking and generalization evaluation platform**
+- **Modular and extensible framework design**
 
 ---
 
-## 🧠 Proposed Framework
+## Proposed Framework
 
 The dataset generation pipeline consists of the following stages:
 
@@ -89,7 +89,7 @@ The dataset generation pipeline consists of the following stages:
 
 ---
 
-## 📊 Dataset Features
+## Dataset Features
 
 | Feature | Description |
 |----------|-------------|
@@ -103,21 +103,21 @@ The dataset generation pipeline consists of the following stages:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
-📦 3d_synthetic_dataset/
-┣ 📜 3D_Dataset_Generator.py    # Main dataset generation script
-┣ 📜 requirements.txt            # Python dependencies
-┣ 📜 README.md                   # Documentation
-┣ 📂 outputs/                    # Generated datasets
-┣ 📂 samples/                    # Sample outputs
-┗ 📂 visualization/              # Visualization tools
+3d_synthetic_dataset/
+┣ 3D_Dataset_Generator.py    # Main dataset generation script
+┣ requirements.txt            # Python dependencies
+┣ README.md                   # Documentation
+┣ outputs/                    # Generated datasets
+┣ samples/                    # Sample outputs
+┗ visualization/              # Visualization tools
 ```
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7+
@@ -138,7 +138,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Basic Usage
 
@@ -162,15 +162,15 @@ You can customize the generation parameters by modifying the configuration in `3
 
 ---
 
-## 🧪 Experimental Use
+## Experimental Use
 
 This dataset can be directly used for:
 
-- ✅ Training 3D convolutional neural networks
-- ✅ Model benchmarking and evaluation
-- ✅ Robustness testing under noise and distortions
-- ✅ Domain generalization experiments
-- ✅ Ablation and architecture comparison studies
+- Training 3D convolutional neural networks
+- Model benchmarking and evaluation
+- Robustness testing under noise and distortions
+- Domain generalization experiments
+- Ablation and architecture comparison studies
 
 ### Suitable Tasks
 - **Semantic segmentation**
@@ -180,34 +180,34 @@ This dataset can be directly used for:
 
 ---
 
-## 🏆 Benchmarking Models
+## Benchmarking Models
 
 This dataset is compatible with multiple state-of-the-art deep learning architectures, including:
 
-- 🔹 **3D U-Net**
-- 🔹 **V-Net**
-- 🔹 **nnU-Net**
-- 🔹 **Swin-UNETR**
-- 🔹 **MONAI-based models**
-- 🔹 **Custom PyTorch and TensorFlow pipelines**
+- **3D U-Net**
+- **V-Net**
+- **nnU-Net**
+- **Swin-UNETR**
+- **MONAI-based models**
+- **Custom PyTorch and TensorFlow pipelines**
 
 ---
 
-## 📈 Applications
+## Applications
 
-- 🏥 **Medical Image Analysis**
-- 🔬 **Biomedical Research**
-- 🤖 **Autonomous Systems**
-- 🦾 **Robotics Perception**
-- 📊 **Scientific Visualization**
-- 🌐 **3D Scene Understanding**
-- 🎮 **Simulation-based Learning**
+- **Medical Image Analysis**
+- **Biomedical Research**
+- **Autonomous Systems**
+- **Robotics Perception**
+- **Scientific Visualization**
+- **3D Scene Understanding**
+- **Simulation-based Learning**
 
 ---
 
-## 📥 Dataset Download
+## Dataset Download
 
-🔗 **Pre-generated Dataset**: [Google Drive Link](https://drive.google.com/drive/folders/1yrN9fln7x9DJzyIIU_AoEhxl85g41Jad?usp=drive_link)
+**Pre-generated Dataset**: [Google Drive Link](https://drive.google.com/drive/folders/1yrN9fln7x9DJzyIIU_AoEhxl85g41Jad?usp=drive_link)
 
 The pre-generated dataset includes:
 - Training samples
@@ -217,13 +217,13 @@ The pre-generated dataset includes:
 
 ---
 
-## 💻 Code Repository
+## Code Repository
 
-🔗 **GitHub Repository**: [https://github.com/Ronitjaiswal1/3d_synthetic_dataset](https://github.com/Ronitjaiswal1/3d_synthetic_dataset)
+**GitHub Repository**: [https://github.com/Ronitjaiswal1/3d_synthetic_dataset](https://github.com/Ronitjaiswal1/3d_synthetic_dataset)
 
 ---
 
-## 📜 Citation
+## Citation
 
 If you use this dataset or framework in your research, please cite:
 
@@ -238,7 +238,7 @@ If you use this dataset or framework in your research, please cite:
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 
 - **Harsh Verma** – Faculty of Technology, University of Delhi
 - **Ronit Jaiswal** – Faculty of Technology, University of Delhi
@@ -248,19 +248,19 @@ If you use this dataset or framework in your research, please cite:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This dataset is intended **strictly for research and educational purposes only**. Any commercial usage, redistribution, or derivative work for profit requires prior written permission from the authors.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -273,25 +273,25 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ---
 
-## 📞 Contact
+## Contact
 
 For questions, collaborations, or support:
 
-- 📧 Open an issue on GitHub
-- 💬 Reach out to the authors via the University of Delhi
+- Open an issue on GitHub
+- Reach out to the authors via the University of Delhi
 
 ---
 
-## ⭐ Star This Repository
+## Star This Repository
 
-If you find this work helpful, please consider giving this repository a ⭐ to support and encourage further research development!
+If you find this work helpful, please consider giving this repository a star to support and encourage further research development!
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 We thank the open-source community and researchers whose tools and frameworks made this work possible.
 
 ---
 
-**Made with ❤️ for the Deep Learning Research Community**
+**Made with love for the Deep Learning Research Community**
