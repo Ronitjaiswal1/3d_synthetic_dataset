@@ -118,3 +118,103 @@ The dataset generation pipeline consists of the following stages:
 cd 3d_synthetic_dataset
 pip install -r requirements.txt**
 
+
+🚀 Usage
+
+To generate the synthetic dataset, run:
+
+python 3D_Dataset_Generator.py
+
+
+The generated volumetric samples and corresponding annotation masks will be saved inside the outputs/ directory.
+
+🧪 Experimental Use
+
+This dataset can be directly used for:
+
+Training 3D convolutional neural networks
+
+Model benchmarking and evaluation
+
+Robustness testing under noise and distortions
+
+Domain generalization experiments
+
+Ablation and architecture comparison studies
+
+It is particularly suitable for:
+
+Semantic segmentation
+
+Object detection
+
+Volumetric classification
+
+3D reconstruction
+
+🏆 Benchmarking Models
+
+This dataset is compatible with multiple state-of-the-art deep learning architectures, including:
+
+3D U-Net
+
+V-Net
+
+nnU-Net
+
+Swin-UNETR
+
+MONAI-based models
+
+Custom PyTorch and TensorFlow pipelines
+
+📈 Applications
+
+Medical Image Analysis
+
+Biomedical Research
+
+Autonomous Systems
+
+Robotics Perception
+
+Scientific Visualization
+
+3D Scene Understanding
+
+Simulation-based Learning
+
+📥 Dataset Download
+
+🔗 Dataset Link:
+https://drive.google.com/drive/folders/1yrN9fln7x9DJzyIIU_AoEhxl85g41Jad?usp=drive_link
+
+💻 Code Repository
+
+🔗 GitHub Repository:
+https://github.com/Ronitjaiswal1/3d_synthetic_dataset.git
+
+📜 Citation
+
+If you use this dataset or framework in your research, please cite:
+
+@article{verma2026synthetic3d,
+  title   = {A Scalable Framework for 3D Synthetic Dataset Generation and Cross-Model Evaluation},
+  author  = {Harsh Verma and Ronit Jaiswal},
+  journal = {Under Review},
+  year    = {2026}
+}
+
+👨‍💻 Authors
+
+Harsh Verma – Faculty of Technology, University of Delhi
+
+Ronit Jaiswal – Faculty of Technology, University of Delhi
+
+⚠️ Disclaimer
+
+This dataset is intended strictly for research and educational purposes only. Any commercial usage, redistribution, or derivative work for profit requires prior written permission from the authors.
+
+⭐ Star This Repository
+
+If you find this work helpful, please consider giving this repository a ⭐ to support and encourage further research development!
