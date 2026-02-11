@@ -230,7 +230,7 @@ If you use this dataset or framework in your research, please cite:
 ```bibtex
 @article{verma2026synthetic3d,
   title   = {A Scalable Framework for 3D Synthetic Dataset Generation and Cross-Model Evaluation},
-  author  = {Harsh Verma and Ronit Jaiswal},
+  author  = {Nishant Gupta,Ronit Jaiswal,Radhika Sharma,Harsh Verma,Dr.Sangeeta Yadav},
   journal = {Under Review},
   year    = {2026}
 }
