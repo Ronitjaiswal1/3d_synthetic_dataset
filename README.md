@@ -114,9 +114,10 @@ The dataset generation pipeline consists of the following stages:
 ## ⚙️ Installation
 
 ```bash
-**git clone https://github.com/Ronitjaiswal1/3d_synthetic_dataset.git
+git clone https://github.com/Ronitjaiswal1/3d_synthetic_dataset.git
 cd 3d_synthetic_dataset
-pip install -r requirements.txt**
+pip install -r requirements.txt
+
 
 
 ## 🚀 Usage
